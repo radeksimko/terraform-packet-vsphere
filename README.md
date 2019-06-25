@@ -84,7 +84,7 @@ You may use SSH tunnel, e.g. assuming the service you wish to access has interna
 ssh -i ~/.ssh/packet-test -nNT -L 8443:172.16.1.1:443 root@$(terraform output bastion_host)
 ```
 
-Then they become available under `localhost:9443` and `localhost:8443` respectively.
+Then it becomes available under `localhost:8443`.
 
 #### SSH into VMs in vSphere without routable IP
 
